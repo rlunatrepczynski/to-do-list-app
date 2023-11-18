@@ -9,7 +9,7 @@ function newItem() {
         alert("You must write something!");
     } else {
         let list = $('#list');
-        list.appendChild(li);
+        list.append(li);
     }
 
     //2. Crossing out an item from the list of items:
